@@ -37,7 +37,6 @@
   padding-bottom: 30px;
   padding-top: 40px;
 }
-
 .services {
   text-align: center;
   background-image: url("../assets/backgrounds/s_image.jpg");
@@ -45,4 +44,8 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.services-section {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10% 0%;
 }
