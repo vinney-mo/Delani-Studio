@@ -51,5 +51,6 @@ $(document).ready(function () {
         },
       },
     });
+    $("#contactForm")[0].reset();
   });
 });
