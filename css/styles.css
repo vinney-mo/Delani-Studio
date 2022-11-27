@@ -10,7 +10,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  text-align: center;
   padding-top: 16%;
 }
 .landing h1 {
@@ -33,12 +32,10 @@
   padding: 30px 0px;
 }
 .about {
-  text-align: center;
   padding-bottom: 30px;
   padding-top: 40px;
 }
 .services {
-  text-align: center;
   background-image: url("../assets/backgrounds/s_image.jpg");
   color: white;
   background-position: center;
@@ -50,7 +47,6 @@
   padding: 10% 0%;
 }
 .what-we-do {
-  text-align: center;
   padding-top: 40px;
 }
 .what-we-do .headings {
