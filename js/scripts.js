@@ -28,5 +28,19 @@ $(document).ready(function () {
     } else $("#messageError").hide();
 
     if (numberOfError > 0) return false;
+    $.confirm({
+      icon: "fa fa-smile-o",
+      theme: "modern",
+      closeIcon: true,
+      animation: "scale",
+      type: "green",
+      title: "Hello " + name + ",",
+      content: "Your message has been received. Thank you for reaching out.",
+      buttons: {
+        close: function () {
+          $("#contactForm")[0].reset();
+        },
+      },
+    });
   });
 });
