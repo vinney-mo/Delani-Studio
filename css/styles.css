@@ -2,6 +2,7 @@
 * {
   font-family: "Poppins";
   scroll-behavior: smooth;
+  font-size: 18px;
 }
 .landing {
   background-image: url("../assets/backgrounds/h_img.jpg");
@@ -35,4 +36,13 @@
   text-align: center;
   padding-bottom: 30px;
   padding-top: 40px;
+}
+
+.services {
+  text-align: center;
+  background-image: url("../assets/backgrounds/s_image.jpg");
+  color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
