@@ -2,7 +2,7 @@
 * {
   font-family: "Poppins";
   scroll-behavior: smooth;
-  font-size: 18px;
+  font-size: 17px;
 }
 .landing {
   background-image: url("../assets/backgrounds/h_img.jpg");
@@ -48,4 +48,21 @@
 .services-section {
   background-color: rgba(0, 0, 0, 0.3);
   padding: 10% 0%;
+}
+.what-we-do {
+  text-align: center;
+  padding-top: 40px;
+}
+.what-we-do .headings {
+  padding-bottom: 38px;
+}
+.what-we-do .title {
+  font-size: 18px;
+  font-weight: 600;
+}
+#product,
+#development,
+#design {
+  display: none;
+  font-size: 16px;
 }
