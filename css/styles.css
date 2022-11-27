@@ -95,3 +95,6 @@
 .contact .form-control:focus::placeholder {
   color: #6a7379;
 }
+footer {
+  margin-top: 80px;
+}
