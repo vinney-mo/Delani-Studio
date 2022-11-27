@@ -98,3 +98,7 @@
 footer {
   margin-top: 80px;
 }
+.what-desc,
+.what-icon {
+  cursor: pointer;
+}
