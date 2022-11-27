@@ -70,3 +70,28 @@
   margin-top: 15px;
   margin-bottom: 15px;
 }
+.contact {
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.contact h2 {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.contact input,
+.contact textarea {
+  background: transparent;
+  font-size: 18px;
+  font-weight: 600;
+}
+.contact .form-control::placeholder {
+  color: white;
+}
+.contact .form-control:focus::placeholder {
+  color: #6a7379;
+}
