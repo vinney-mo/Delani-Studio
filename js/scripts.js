@@ -1,10 +1,10 @@
 $(document).ready(function () {
-  $(".what-icon").click(function () {
+  $(".whatWeDoIcon").click(function () {
     $(this).slideDown("1500").hide("1000");
-    $(this).parent().find(".what-desc").show("1500");
+    $(this).parent().find(".whatWeDoDescription").show("1500");
   });
-  $(".what-desc").click(function () {
+  $(".whatWeDoDescription").click(function () {
     $(this).slideDown("1500").hide("1000");
-    $(this).parent().find(".what-icon").show("1500");
+    $(this).parent().find(".whatWeDoIcon").show("1500");
   });
 });
