@@ -131,6 +131,11 @@ footer {
   position: relative;
 }
 
+.content-overlay,
+.content-details {
+  display: none;
+}
+
 .work .content-overlay {
   background: rgba(0, 0, 0, 0.7);
   position: absolute;

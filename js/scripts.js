@@ -7,6 +7,15 @@ $(document).ready(function () {
     $(this).slideDown("1500").hide("1000");
     $(this).parent().find(".whatWeDoIcon").show("1500");
   });
+  $(".work")
+    .mouseover(function () {
+      $(this).find(".content-overlay").show();
+      $(this).find(".content-details").show();
+    })
+    .mouseout(function () {
+      $(this).find(".content-overlay").hide();
+      $(this).find(".content-details").hide();
+    });
   $("#contactForm").submit(function (event) {
     event.preventDefault();
     var name = $("#name").val();
