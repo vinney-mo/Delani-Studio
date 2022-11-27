@@ -89,6 +89,12 @@
   font-size: 18px;
   font-weight: 600;
 }
+.contact .form-control {
+  color: white;
+}
+.contact .form-control:focus {
+  color: #000;
+}
 .contact .form-control::placeholder {
   color: white;
 }
@@ -166,4 +172,7 @@ footer {
 
 .fadeIn-right {
   left: 80%;
+}
+.hidden {
+  display: none;
 }

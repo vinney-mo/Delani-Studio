@@ -179,19 +179,22 @@
     <div class="container-fluid contact">
       <div class="container">
         <h2 class="text-center">CONTACT US</h2>
-        <form id="contact" action="#" method="POST">
+        <form id="contactForm" action="#" method="POST">
           <div class="row">
             <div class="col-md-6 mb-3">
               <div class="form-group">
                 <input
                   type="text"
                   class="form-control"
-                  placeholder="Name...."
-                  name="MERGE1"
-                  id="MERGE1"
+                  placeholder="Name..."
+                  name="name"
+                  id="name"
                   size="25"
                   value=""
                 />
+                <span class="error text-danger hidden" id="nameError">
+                  Name is required</span
+                >
               </div>
             </div>
             <div class="col-md-6">
@@ -199,14 +202,17 @@
                 <input
                   type="email"
                   class="form-control"
-                  placeholder="Email...."
+                  placeholder="Email..."
                   autocapitalize="off"
                   autocorrect="off"
-                  name="MERGE0"
-                  id="MERGE0"
+                  name="email"
+                  id="email"
                   size="25"
                   value=""
                 />
+                <span class="error text-danger hidden" id="emailError">
+                  Email is required</span
+                >
               </div>
             </div>
             <div class="col-md-12">
@@ -214,9 +220,12 @@
                 <textarea
                   class="form-control"
                   rows="8"
-                  id="comment"
-                  placeholder="Your message here...."
+                  id="message"
+                  placeholder="Your message here..."
                 ></textarea>
+                <span class="error text-danger hidden" id="messageError">
+                  Message is required</span
+                >
               </div>
               <div class="form-group mb-3 text-center">
                 <button type="submit" class="btn btn-primary">Submit</button>
