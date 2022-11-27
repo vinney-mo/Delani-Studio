@@ -31,6 +31,25 @@
   margin-top: 10%;
   padding: 30px 0px;
 }
+#mouseClick {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  40%,
+  70%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-55px);
+  }
+  60% {
+    transform: translateY(-45px);
+  }
+}
 .about {
   padding-bottom: 30px;
   padding-top: 40px;
