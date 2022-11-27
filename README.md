@@ -39,6 +39,7 @@ $ cd Delani-Studio
 
 - Hoover effects
 - Responsive design
+- Jquery functions
 - Form input validations
 - Success message on successful submission of a message
 
@@ -68,7 +69,7 @@ Image files located at [`assets`](assets)
 
 ## Author
 
-- **Vinney MO** - [https://github.com/vinney-mo](https://github.com/vinney-mo)
+**[Vinney MO](https://github.com/vinney-mo)**
 
 ## License
 
